@@ -7,12 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class logController: UIViewController {
 
     @IBOutlet var signInButton: UIButton!
    
     @IBOutlet var usernameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
+    @IBOutlet var forgotPasswordLabel: UILabel!
+    @IBOutlet var registerNewuserLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
